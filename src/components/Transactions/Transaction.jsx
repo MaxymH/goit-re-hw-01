@@ -1,4 +1,4 @@
-import PropTypes, { element } from "prop-types";
+import PropTypes from "prop-types";
 import s from './transactions.module.css'
 export default function TransactionHistory(props) {
     
