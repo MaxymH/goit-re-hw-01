@@ -1,10 +1,7 @@
-import PropTypes, { element } from "prop-types";
+import PropTypes from "prop-types";
 
 import s from './statics.module.css'
 
-function getRandomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
 export default function Statics(props) {
     const { title, stats } = props
     
