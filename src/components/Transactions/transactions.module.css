@@ -1,0 +1,18 @@
+.transaction_history{
+    width: 500px;
+}
+.titleColumn{
+    height: 50px;
+    background-color: #00BCD5;
+    color: #fff;
+}
+.list{
+    text-align: center;
+    height: 40px;
+    color: #A1ABB6;
+    font-weight: 400;
+}
+.list:nth-child(2n + 2){
+    background-color: #fff;
+    
+}

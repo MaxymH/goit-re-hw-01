@@ -1,0 +1,21 @@
+.statistics{
+    background-color: #fff;
+}
+.title{
+    text-align: center;
+    height: 60px;
+}
+.stat_list{
+    display: flex;
+    
+}
+.item{
+    height: 70px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-top: #fff 5px solid;
+    color: #fff;
+}

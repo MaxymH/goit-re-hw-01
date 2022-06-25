@@ -1,0 +1,30 @@
+.item{
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.status{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.online{
+    background-color: #4DAF4F;
+    composes: status;
+}
+.offline{
+    background-color: red;
+    composes: status;
+}
+.avatar{
+    margin-left: 15px;
+    height: 50px;
+}
+.name{
+    margin-left: 15px;
+    font-weight: 600;
+}
