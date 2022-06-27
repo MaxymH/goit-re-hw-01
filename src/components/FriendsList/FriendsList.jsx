@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import s from './friendsList.module.css'
 
 import FriendsItemList from "components/FriendsListItem/FriendsListItem";
 
@@ -19,7 +18,7 @@ export default function FriendsList(props) {
         )
     })
     return (
-        <ul className={s.friend}>
+        <ul >
             {element}
         </ul>
     )
