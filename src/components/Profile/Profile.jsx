@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import s from './profile.module.css'
-export default  function User(props) {
+export default  function Profile(props) {
     const {avatarUrl, name, tag , address, stats } = props
     return (
         <div className={s.profile}>
@@ -33,7 +33,7 @@ export default  function User(props) {
     )
 };
 
-User.propTypes = {
+Profile.propTypes = {
     address: PropTypes.string.isRequired,
     avatarUrl: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,

@@ -31,6 +31,15 @@ export default function TransactionHistory(props) {
     )
 }
 
+TransactionHistory.defaultProps = {
+    items: []
+}
+
 TransactionHistory.prototype = {
-    props: PropTypes.array.isRequired
+    props: PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        type: PropTypes.string.isRequired,
+        amount: PropTypes.number.isRequired,
+        currency: PropTypes.string.isRequired
+    })
 }

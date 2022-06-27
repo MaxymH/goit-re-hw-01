@@ -1,4 +1,4 @@
-import User from "components/Profile";
+import Profile from "components/Profile";
 import Statistics from "components/Statics";
 import FriendsList from "components/FriendsList";
 import TransactionHistory from "components/Transactions";
@@ -12,7 +12,7 @@ export const App = () => {
   const { username, tag, location, avatar, stats } = dataUsers
   return (
     <div>
-      <User
+      <Profile
         avatarUrl={avatar}
         name={username}
         tag={tag}
